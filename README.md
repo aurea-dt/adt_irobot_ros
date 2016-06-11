@@ -6,3 +6,4 @@ which contains all the actual functionality to control the iRobot create 2. The
 derived class only contains the ROS related functionality, messages, topics and services. 
 
 #ROS version
+This code is a catkin package developed under ROS indigo and Ubuntu 14.04.4 LTS.
