@@ -1,0 +1,2 @@
+int32 batteryCharge
+int32 batteryCapacity
