@@ -5,12 +5,15 @@ ADT_iRobot_ros is a derived class of [ADT_iRobot](https://github.com/aurea-dt/AD
 which contains all the actual functionality to control the iRobot create 2. The 
 derived class only contains the ROS related functionality, messages, topics and services. 
 
-#ROS version
-This code is a catkin package developed under ROS indigo and Ubuntu 14.04.4 LTS.
+##ROS elements
+
 
 #Compiling
 ###Prerequisites
 To compile the code you will need glib develpment package libglib2.0-dev .
+
+##ROS version
+This code is a catkin package developed under ROS indigo and Ubuntu 14.04.4 LTS.
 
 ``` bash
 $ sudo apt-get install libglib2.0-dev
