@@ -18,7 +18,7 @@ Becuase the events on the parent class ADT_iRobot are managed by glib main loop
 the code uses __ros::spinOnce()__ instead of ros::spin().
 
 #Compiling
-##Prerequisites
+##Dependencies
 To compile the code you will need glib develpment package __libglib2.0-dev__ .
 ``` bash
 $ sudo apt-get install libglib2.0-dev
