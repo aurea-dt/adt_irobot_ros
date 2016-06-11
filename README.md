@@ -11,13 +11,14 @@ derived class only contains the ROS related functionality, messages, topics and 
 #Compiling
 ##Prerequisites
 To compile the code you will need glib develpment package libglib2.0-dev .
+``` bash
+$ sudo apt-get install libglib2.0-dev
+```
 
 ##ROS version
 This code is a catkin package developed under ROS indigo and Ubuntu 14.04.4 LTS.
 
-``` bash
-$ sudo apt-get install libglib2.0-dev
-```
+
 ##Compile
 ``` bash
 $ cd your_catkin_workspace
