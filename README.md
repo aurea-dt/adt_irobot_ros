@@ -8,6 +8,7 @@ derived class only contains the ROS related functionality, messages, topics and 
 ##ROS elements
 ###Topics
 ###Services
+###Spin
 
 #Compiling
 ##Prerequisites
