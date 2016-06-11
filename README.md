@@ -8,6 +8,8 @@ derived class only contains the ROS related functionality, messages, topics and 
 ##ROS elements
 ###Topics
 ###Services
+To control the iRobot movements the service adt_iRobot_move_service enable to request
+a change in velocity and turn radius.
 ###Spin
 
 #Compiling
