@@ -7,6 +7,8 @@ derived class only contains the ROS related functionality, messages, topics and 
 
 ##ROS elements
 ###Topics
+The values of the iRobot sensors are published through the topic __adt_iRobot_status__.
+
 ###Services
 To control the iRobot movements the service __adt_iRobot_move_service__ enable to request
 a change in velocity and turn radius.
