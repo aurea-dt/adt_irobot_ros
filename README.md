@@ -7,3 +7,18 @@ derived class only contains the ROS related functionality, messages, topics and 
 
 #ROS version
 This code is a catkin package developed under ROS indigo and Ubuntu 14.04.4 LTS.
+
+#Compiling
+###Prerequisites
+To compile the code you will need glib develpment package libglib2.0-dev .
+
+``` bash
+$ sudo apt-get install libglib2.0-dev
+```
+###Compile
+``` bash
+$ cd your_catkin_workspace
+$ cd src
+$ git clone https://github.com/aurea-dt/adt_irobot_ros.git
+$ catkin_make_isolated --install --source src/adt_irobot_ros/
+```
