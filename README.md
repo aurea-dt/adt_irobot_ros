@@ -14,7 +14,7 @@ To control the iRobot movements the service __adt_iRobot_move_service__ enable t
 a change in velocity and turn radius.
 ###Spin
 Becuase the events on the parent class ADT_iRobot are managed by glib main loop 
-the code uses __ros::spinOnce__ instead of ros::spin;
+the code uses __ros::spinOnce()__ instead of ros::spin().
 
 #Compiling
 ##Prerequisites
