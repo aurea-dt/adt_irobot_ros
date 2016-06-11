@@ -24,5 +24,6 @@ This code is a catkin package developed under ROS indigo and Ubuntu 14.04.4 LTS.
 $ cd your_catkin_workspace
 $ cd src
 $ git clone https://github.com/aurea-dt/adt_irobot_ros.git
+$ cd ..
 $ catkin_make_isolated --install --source src/adt_irobot_ros/
 ```
