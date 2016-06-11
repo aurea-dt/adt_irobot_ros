@@ -13,6 +13,8 @@ The values of the iRobot sensors are published through the topic __adt_iRobot_st
 To control the iRobot movements the service __adt_iRobot_move_service__ enable to request
 a change in velocity and turn radius.
 ###Spin
+Becuase the events on the parent class ADT_iRobot are managed by glib main loop 
+the code uses __ros::spinOnce__ instead of ros::spin;
 
 #Compiling
 ##Prerequisites
