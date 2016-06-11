@@ -8,19 +8,19 @@ derived class only contains the ROS related functionality, messages, topics and 
 ##ROS elements
 ###Topics
 ###Services
-To control the iRobot movements the service adt_iRobot_move_service enable to request
+To control the iRobot movements the service __adt_iRobot_move_service__ enable to request
 a change in velocity and turn radius.
 ###Spin
 
 #Compiling
 ##Prerequisites
-To compile the code you will need glib develpment package libglib2.0-dev .
+To compile the code you will need glib develpment package __libglib2.0-dev__ .
 ``` bash
 $ sudo apt-get install libglib2.0-dev
 ```
 
 ##ROS version
-This code is a catkin package developed under ROS indigo and Ubuntu 14.04.4 LTS.
+This code is a catkin package developed under __ROS indigo__ and __Ubuntu 14.04.4 LTS__.
 
 
 ##Compile
