@@ -13,7 +13,7 @@ The values of the iRobot sensors are published through the topic __adt_iRobot_st
 ### Services
 To control the iRobot movements the service __adt_iRobot_move_service__ enable to request
 a change in velocity and turn radius.
-###Spin
+### Spin
 Becuase the events on the parent class ADT_iRobot are managed by glib main loop 
 the code uses __ros::spinOnce()__ instead of ros::spin().
 
@@ -24,7 +24,7 @@ To compile the code you will need glib develpment package __libglib2.0-dev__ .
 $ sudo apt-get install libglib2.0-dev
 ```
 
-##ROS version
+## ROS version
 This code is a catkin package developed under __ROS indigo__ and __Ubuntu 14.04.4 LTS__.
 
 
